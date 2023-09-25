@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile-photo {
+    max-width: 30%;
+    border-radius: 50%;
+    
+}
+
+.name-paragraph {
+    font-size: 24px;
+    font-weight: bold;
+    
+
+}
+
+.introduction-paragraph {
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.detel a{
+        background-color: #212121;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        display: inline-block;
+        margin: 30px 0;
+        border-radius: 5px;
+        
+    
+}
+
+.right-column {
+    flex: 1;
+    padding: 100px;
+}
+
+iframe {
+    max-width: 100%;
+    position: relative;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
